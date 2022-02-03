@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>Início: 
+                <input id="inicio" type="number" name="inicio" min="0">
+            </p>
+            <p>Fim:
+                <input id="fim" type="number" name="fim" min="0">
+            </p>
+            <p>Passo:
+                <input id="passo" type="number" name="passo" min="1">
+            </p>
+            <p>
+                <input id="btn" type="button" value="Contar" onclick="contar()">
+            </p>
+        </div>
+        <div id="resultado">
+            <p>Iniciando a contagem...</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Henrique R. F. Mendes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

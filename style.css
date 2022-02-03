@@ -1,0 +1,40 @@
+body {
+    background-color: #3C6E71;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: #C2C2C2;
+    font-variant: small-caps;
+    text-align: center;
+    text-shadow: #353535 0.1em 0.1em 0.2em;
+}
+
+section {
+    background-color: #C2C2C2;
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 12px rgb(41, 41, 41);   
+    color: #284B63;
+}
+
+footer {
+    color: #A3A3A3;
+    text-align: center;
+    font-style: italic;
+    font-size: 10pt;
+}
+
+#btn {
+    cursor: pointer;
+    background-color: #417A9F;
+    color: white;
+}
+
+#btn:hover {
+    background-color: #353535;
+    color: white;
+}
